@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main1() {
+int main() {
 	int N;
 	cout << "Enter number : ";
 	cin >> N;
