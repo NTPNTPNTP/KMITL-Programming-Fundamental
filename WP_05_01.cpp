@@ -15,6 +15,6 @@ int main(){
         sum += (arr[i]-avg)*(arr[i]-avg);
     }
 
-    cout << sqrt(sum/n);
+    cout << sqrt(sum/(n-1));
     return 0;
 }
