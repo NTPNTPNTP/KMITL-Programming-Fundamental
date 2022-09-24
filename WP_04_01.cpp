@@ -14,6 +14,7 @@ int lcm(int n1, int n2){
 int main(){
     int n1, n2;
     cin >> n1 >> n2;
+    if(n2>n1) swap(n1, n2);
     cout << "Greatest common divisor : " << gcd(n1, n2) << "\n";
     cout << "Least common multiple   : " << lcm(n1, n2) << "\n";
     return 0;
